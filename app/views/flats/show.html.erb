@@ -1,0 +1,7 @@
+<div class="card">
+  <img src="<%= @flat['imageUrl'] %>" width="200" height="100%">
+  <h3><%= @flat["name"] %></h3>
+  <h4><%= "#{@flat['priceCurrency']} - #{@flat['price']}" %></h4>
+</div>
+
+<%= link_to "Back to all flats", flats_path %>
